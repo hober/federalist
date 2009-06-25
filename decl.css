@@ -1,0 +1,63 @@
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+}
+
+h1 .minor {
+  font-style: normal;
+  font-size: 0.75em;
+}
+
+h2 {
+  font-variant: small-caps;
+}
+
+h2 em {
+  font-variant: normal;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 1em;
+  padding: 0em;
+}
+
+ol, #hancock {
+  font-family: cursive;
+  line-height: 1;
+}
+
+ol {
+  font-size: 0.75em;
+  list-style-type: none;
+  width: 16.1%;
+  float: right;
+  margin: 0.125em;
+  padding: 0;
+}
+
+ol li {
+  margin: 0;
+  padding: 0.25em 0;
+  text-align: right;
+}
+
+#hancock {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+p.meta {
+  clear: right;
+}
+

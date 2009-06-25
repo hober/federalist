@@ -1,0 +1,136 @@
+/* Undo default HTML styling of some elements */
+
+abbr {
+  border: 0;
+}
+
+dfn, em, q, strong {
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic layout */
+
+body {
+  margin: 1.3125em auto 0 auto;
+  padding: 0;
+  width: 35em;
+  max-width: 98%;
+}
+
+p {
+  margin: 1.3125em 0;
+  padding: 0;
+}
+
+#papers {
+  text-align: left;
+}
+
+a.permalink {
+  display: none;
+}
+
+p:hover a.permalink, h2:hover a.permalink, h3:hover a.permalink, li:hover a.permalink {
+  display: inline;
+}
+
+#other, #xrefs {
+  list-style-type: none;
+}
+
+/* Typography */
+
+/*  6pt = 0.375em
+ *  7pt = 0.4375em
+ *  8pt = 0.5em
+ *  9pt = 0.5625em
+ * 10pt = 0.625em
+ * 11pt = 0.6875em
+ * 12pt = 0.75em
+ * 14pt = 0.875em
+ * 16pt = 1em
+ * 18pt = 1.125em
+ * 21pt = 1.3125em
+ * 24pt = 1.5em
+ * 36pt = 2.25em
+ * 48pt = 3em
+ * 60pt = 3.75em
+ * 72pt = 4.5em
+ */
+
+body {
+  font-family: "Goudy Old Style", Garamond, "Bookman Old Style", Georgia, Times, serif;
+  font-size: 100%;
+  line-height: 1.3125;
+}
+
+h1 { font-size: 2.25em;   line-height: 1.167; }
+h2 { font-size: 1.5em;    line-height: 1.75; }
+h3 { font-size: 1.3125em; line-height: 2; }
+h4 { font-size: 1.25em;   line-height: 1.05; }
+h5 { font-size: 1.125em;  line-height: 1.167; }
+h6 { font-size: 1em;      line-height: 1.3125; }
+
+#p1 .initial, em, strong {
+  font-variant: small-caps;
+}
+
+.minor, #salutation, address, .publication {
+  font-style: italic;
+}
+
+/* Color */
+
+body {
+  color: #000;
+  background-color: #ffe;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #00c;
+}
+
+h1 a:link, h1 a:visited {
+  color: #000;
+}
+
+a:active, a:hover {
+  text-decoration: underline;
+  color: #00f;
+}
+
+h1 a:active, h1 a:hover {
+  color: #00f;
+}
+
+.meta {
+  margin: 0;
+  padding: 0 4ex;
+  text-align: center;
+  border: 1px solid #ccb;
+  border-bottom-color: #eed;
+  background-color: #eed;
+  font-size: 0.875em;
+  line-height: 1.5;
+}
+
+.meta p {
+  margin: 0.75em 0;
+  padding: 0;
+}
+
+#home-page .meta {
+  text-align: left;
+}
+
+fieldset {
+  border: 1px solid #ccb;
+}

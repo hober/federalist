@@ -1,0 +1,60 @@
+@import url(common.css);
+
+/* Some FPs have things that are semantically blockquotes, but should be
+ * displayed normally.
+ */
+
+blockquote.flush {
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout */
+
+div.entry-content {
+  margin: 1em auto;
+  text-align: justify;
+}
+
+h1 { font-size: 3.75em; }
+h2 { font-size: 2.25em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.3125em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1.125em; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+#index ol {
+  list-style-type: none;
+}
+
+#index ol.entries li {
+  display: inline;
+}
+
+address {
+  text-align: right;
+}
+
+#notes {
+  margin: 1em;
+  padding: 1em;
+}
+
+.entry-title, address .nickname {
+  /* text-transform: uppercase; */
+  font-variant: small-caps;
+}
+
+a.note {
+  font-size: 0.75em;
+  line-height: 1;
+  vertical-align: super;
+}
+
+#notes {
+  font-size: 0.875em;
+}
