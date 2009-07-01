@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+
+import cgi
+import cgitb
+from SimpleXMLRPCServer import CGIXMLRPCRequestHandler
+import smtplib
+import string
+import sys
+
+cgitb.enable()
+
+HOST    = 'localhost'
+FROM    = 'pingback@federali.st'
+TO      = 'hober0@gmail.com'
+SUBJECT = 'federali.st pingback'
+
+def pingback(sourceURI, targetURI):
+    message = """From: %s
+To: %s
+Subject: %s
+
+Hi Ted.
+
+sourceURI: %s
+targetURI: %s
+
+-- 
+federali.st pingback
+""" % (FROM, TO, SUBJECT, sourceURI, targetURI)
+    server = smtplib.SMTP(HOST)
+    server.sendmail(FROM, [TO], message)
+    server.quit()
+    return "Great, thanks!"
+
+handler = CGIXMLRPCRequestHandler()
+handler.register_introspection_functions()
+handler.register_function(pingback, 'pingback.ping')
+handler.handle_request()
