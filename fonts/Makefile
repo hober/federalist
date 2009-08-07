@@ -18,3 +18,7 @@ GoudyBookletter1911.otf: GoudyBookletter1911--2008.02.06.zip
 # http://fontforge.sourceforge.net/scripting-tutorial.html
 %.ttf: %.otf
 	./convert.pe $<
+
+clean:
+	rm fonts/GoudyBookletter1911--2008.02.06.zip
+	rm fonts/GoudyBookletter1911.ttf
