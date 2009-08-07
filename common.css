@@ -4,6 +4,11 @@
  * http://home.comcast.net/~crudfactory/cf3/gb1911.xhtml
  */
 
+@font-face { /* For IE */
+  font-family: "Goudy Bookletter 1911";
+  src: url(/fonts/GoudyBookletter1911.eot);
+}
+
 @font-face {
   font-family: "Goudy Bookletter 1911";
   src: url(/fonts/GoudyBookletter1911.otf) format("opentype");

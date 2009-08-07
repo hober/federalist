@@ -1,3 +1,5 @@
+eot: GoudyBookletter1911.eot
+ttf: GoudyBookletter1911.ttf
 otf: GoudyBookletter1911.otf
 
 # Download Goudy Bookletter 1911 from
@@ -8,3 +10,11 @@ GoudyBookletter1911--2008.02.06.zip:
 
 GoudyBookletter1911.otf: GoudyBookletter1911--2008.02.06.zip
 	unzip GoudyBookletter1911--2008.02.06.zip
+
+# http://code.google.com/p/ttf2eot/
+%.eot: %.ttf
+	ttf2eot < $< > $@
+
+# http://fontforge.sourceforge.net/scripting-tutorial.html
+%.ttf: %.otf
+	./convert.pe $<
