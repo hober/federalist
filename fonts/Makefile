@@ -20,5 +20,5 @@ GoudyBookletter1911.otf: GoudyBookletter1911--2008.02.06.zip
 	./convert.pe $<
 
 clean:
-	rm fonts/GoudyBookletter1911--2008.02.06.zip
-	rm fonts/GoudyBookletter1911.ttf
+	rm GoudyBookletter1911--2008.02.06.zip
+	rm GoudyBookletter1911.ttf
