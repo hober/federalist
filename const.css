@@ -1,0 +1,58 @@
+.sig-column {
+  font-family: cursive;
+  line-height: 1;
+}
+
+.sig-column {
+  font-size: 0.875em;
+  list-style-type: none;
+  width: 30%;
+  float: right;
+  margin: 0.5em;
+  padding: 0;
+  text-align: right;
+}
+
+.state {
+  position: relative;
+  margin: 0 0 1em 0;
+}
+
+.state h4 {
+  font-size: 1em;
+  line-height: 1;
+  font-weight: normal;
+  text-align: left;
+  width: 40%;
+  padding: 0 0 0 0;
+  margin: 0;
+  float: left;
+}
+
+.state ul {
+  list-style-type: none;
+  width: 60%;
+  margin: 0 0 0 40%;
+  padding: 0;
+}
+
+.sig-column p.vcard {
+  margin-top: 0;
+}
+
+#m1 {
+  clear: right;
+}
+
+hr {
+  background: transparent url("images/hr.png") top center no-repeat;
+  border: 0;
+  clear: both;
+  font-size: 1em;
+  height: 23px;
+  line-height: 1;
+  margin: 1.125em auto 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 55px;
+}

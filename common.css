@@ -93,7 +93,7 @@ h4 { font-size: 1.25em;   line-height: 1.05; }
 h5 { font-size: 1.125em;  line-height: 1.167; }
 h6 { font-size: 1em;      line-height: 1.3125; }
 
-#p1 .initial, em, strong {
+.initial, em, strong {
   font-variant: small-caps;
 }
 
