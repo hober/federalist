@@ -1,3 +1,14 @@
+/* Custom faces */
+
+/* Goudy Bookletter 1911 is from
+ * http://home.comcast.net/~crudfactory/cf3/gb1911.xhtml
+ */
+
+@font-face {
+  font-family: "Goudy Bookletter 1911";
+  src: url(/fonts/GoudyBookletter1911.otf) format("opentype");
+}
+
 /* Undo default HTML styling of some elements */
 
 abbr {
@@ -65,7 +76,7 @@ p:hover a.permalink, h2:hover a.permalink, h3:hover a.permalink, li:hover a.perm
  */
 
 body {
-  font-family: "Goudy Old Style", Garamond, "Bookman Old Style", Georgia, Times, serif;
+  font-family: "Goudy Bookletter 1911", "Goudy Old Style", Garamond, "Bookman Old Style", Georgia, Times, serif;
   font-size: 100%;
   line-height: 1.3125;
 }
