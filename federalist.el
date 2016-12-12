@@ -1,8 +1,8 @@
 ;;; federalist.el --- utilities for editing federali.st
 
-;; Copyright (C) 2007  Edward O'Connor
+;; Copyright (C) 2007  Theresa O'Connor
 
-;; Author: Edward O'Connor <hober0@gmail.com>
+;; Author: Theresa O'Connor <hober0@gmail.com>
 ;; Keywords: convenience
 
 ;; This file is free software; you can redistribute it and/or modify
