@@ -48,14 +48,6 @@ p {
   text-align: left;
 }
 
-a.permalink {
-  display: none;
-}
-
-p:hover a.permalink, h2:hover a.permalink, h3:hover a.permalink, li:hover a.permalink {
-  display: inline;
-}
-
 #other, #xrefs {
   list-style-type: none;
 }
@@ -84,6 +76,13 @@ body {
   font-family: "Goudy Bookletter 1911", "Goudy Old Style", Garamond, "Bookman Old Style", Georgia, Times, serif;
   font-size: 131.25%;
   line-height: 1.3125;
+}
+
+@media (max-width: 450px) {
+    body {
+        font-size: 100%;
+    }
+    h1 { font-size: 1.5em; line-height: 1.75;}
 }
 
 h1 { font-size: 2.25em;   line-height: 1.167; }
@@ -124,6 +123,14 @@ a:active, a:hover {
 
 h1 a:active, h1 a:hover {
   color: #00f;
+}
+
+a.permalink {
+  color: #eed;
+}
+
+p:hover a.permalink, h2:hover a.permalink, h3:hover a.permalink, li:hover a.permalink {
+  color: #00c;
 }
 
 .meta {
